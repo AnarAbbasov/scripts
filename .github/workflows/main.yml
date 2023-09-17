@@ -1,0 +1,5 @@
+- name: Build RPM
+  # You may pin to the exact commit or the version.
+  # uses: biohuns/rpmbuild-centos8-action@be4f026e560c19ce15695033000fb2294ce8814d
+  uses: biohuns/rpmbuild-centos8-action@v1.0.0
+  
