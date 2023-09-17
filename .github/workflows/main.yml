@@ -15,4 +15,4 @@ jobs:
        echo "Log level: ${{ github.event.inputs.logLevel }}"
        echo "Tags: ${{ github.event.inputs.tags }}"  
        mkdir rpm
-       cp ../interview.py rpm/
+       pwd
