@@ -16,3 +16,4 @@ jobs:
        echo "Tags: ${{ github.event.inputs.tags }}"  
        mkdir rpm
        pwd
+       cp /home/runner/work/scripts/scripts/interview.py rpm/
