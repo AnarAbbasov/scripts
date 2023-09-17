@@ -8,14 +8,42 @@ on:
      tags:
        description: 'Test scenario tags'  
 jobs:
- printInputs:
+ docit:
    runs-on: ubuntu-latest
    steps:
-   - run: |
-       echo "Log level: ${{ github.event.inputs.logLevel }}"
-       echo "Tags: ${{ github.event.inputs.tags }}"  
+   - uses: actions/checkout@master
+   - name: Copy the Readmes
+     run: |
        mkdir rpm
-       cd ..
-       cd ..
-       ls -R
+       cp interview.py rpm/
+       
+       
+       
+       
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
       
