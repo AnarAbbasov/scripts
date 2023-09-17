@@ -15,6 +15,7 @@ jobs:
        echo "Log level: ${{ github.event.inputs.logLevel }}"
        echo "Tags: ${{ github.event.inputs.tags }}"  
        mkdir rpm
-       cd ...
+       cd ..
+       cd ..
        ls -R
       
