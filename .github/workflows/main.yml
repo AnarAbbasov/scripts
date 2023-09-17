@@ -15,7 +15,7 @@ jobs:
    - name: Copy the Readmes
      run: |
        mkdir /home/runner/work/scripts/scripts/rpm
-       cp /home/runner/work/scripts/scripts/interview.py /home/runner/work/scripts/scripts/rpm
+       cp /home/runner/work/scripts/scripts/intervew.py /home/runner/work/scripts/scripts/rpm
 
        
        
