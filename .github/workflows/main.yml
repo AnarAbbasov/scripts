@@ -14,8 +14,8 @@ jobs:
    - uses: actions/checkout@master
    - name: Copy the Readmes
      run: |
-       mkdir /home/runner/work/scripts/scripts/rpm
-       cp /home/runner/work/scripts/scripts/intervew.py /home/runner/work/scripts/scripts/rpm
+       mkdir rpm
+       cp intervew.py rpm/
 
        
        
