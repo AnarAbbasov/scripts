@@ -16,8 +16,8 @@ jobs:
      run: |
        mkdir rpm
        cp intervew.py rpm/
-       docker --version
        
+      
        
        
        
