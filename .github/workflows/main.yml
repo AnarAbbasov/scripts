@@ -1,4 +1,4 @@
-n: 
+on: 
  workflow_dispatch:
    inputs:
      logLevel:
@@ -7,7 +7,7 @@ n:
        default: 'warning'
      tags:
        description: 'Test scenario tags'  
-obs:
+jobs:
  printInputs:
    runs-on: ubuntu-latest
    steps:
