@@ -14,8 +14,9 @@ jobs:
    - uses: actions/checkout@master
    - name: Copy the Readmes
      run: |
-       mkdir rpm
-       cp /home/runner/work/scripts/scripts/interview.py rpm/
+       mkdir /home/runner/work/scripts/scripts/rpm
+       cp /home/runner/work/scripts/scripts/interview.py /home/runner/work/scripts/scripts/rpm
+
        
        
        
