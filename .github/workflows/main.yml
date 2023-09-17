@@ -1,7 +1,9 @@
-- name: RPM Packaging
-  # You may pin to the exact commit or the version.
-  # uses: wyTrivail/rpmbuild@52ae534ca3bb9e388167150f974b0e91e4155f99
-  uses: wyTrivail/rpmbuild@v2.0.4
-  with:
-    # path to the spec file
-    spec_file: # default is *.spec
+on: 
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'  
