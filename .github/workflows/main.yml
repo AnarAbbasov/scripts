@@ -13,7 +13,7 @@ jobs:
    
    steps:
    
-   #- uses: actions/checkout@v4
+   - uses: actions/checkout@v4
    - name: Copy the Readmes
      working-directory: /home/runner/work/scripts/scripts
      run: |
