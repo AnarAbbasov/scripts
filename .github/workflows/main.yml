@@ -17,8 +17,9 @@ jobs:
    - name: Copy the Readmes
      working-directory: /home/runner/work/scripts/
      run: |
+       ls 
        mkdir rpm
-       cp intervew.py rpm/
+       cp ./intervew.py rpm/
        
       
        
