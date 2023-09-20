@@ -15,7 +15,7 @@ jobs:
    
    #- uses: actions/checkout@v4
    - name: Copy the Readmes
-     working-directory: /home/runner/work/scripts/
+     working-directory: /home/runner/work/scripts/scripts
      run: |
        ls 
        mkdir rpm
