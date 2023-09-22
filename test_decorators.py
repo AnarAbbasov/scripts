@@ -1,10 +1,11 @@
-import sole_decorators
+from sole_decorators import get_log
+import my_class
 
-@sole_decorators.execute_rep(2)
-@sole_decorators.repeat_n(2)
+@get_log
 def myprinting(text):
     print (text)
     
+anar_class= my_class.MyClass()
 
-
+anar_class.show_list()
 myprinting('clen')

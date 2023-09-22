@@ -1,6 +1,8 @@
+import datetime
+
 def get_log(function):
     def inner(*args, **kwargs):
-        print ( str(datetime.now()))
+        print ( str(datetime.time.second))
         
         return function(*args, **kwargs)
     return inner
