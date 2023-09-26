@@ -1,7 +1,7 @@
 from sole_decorators import get_log
 import intervew
 
-import pytest
+import unittest
 
 
 
@@ -27,16 +27,49 @@ def myprinting(text):
 #    def test_mypt_otput(self):
 #        
 #@pytest.fixture
-def test_mypr():
-   assert myprinting('clen')=='clen'
-   
+#def test_mypr():
+#   assert myprinting('clen')=='clen'
+#   
 #test_mypr(myprinting=myprinting)
-def test_mypr2():
-  assert myprinting('clen')=='clen'
-  
-def test_interview():
-    assert  intervew.divide_by2(4)==2
+#def test_mypr2():
+#  assert myprinting('clen')=='clen'
+#  
+#def test_interview():
+#    assert  intervew.divide_by2(4)==2
+#
+#def test_map():
+#     assert isinstance(intervew.getlist(),list)
 
-def test_map():
-     assert isinstance(intervew.getlist(),list)
-    
+
+
+
+      
+      
+       
+     
+
+class mytest(unittest.TestCase):
+  
+  #def runTest(self):
+  #      rectangle = intervew.divide_by2(6)
+  #      self.assertEqual(rectangle, 3, "incorrect result")
+  #      
+        
+  def runlisttest(self):
+        resut= intervew.test()
+        self.addTypeEqualityFunc(resut,list,"not list")   
+
+
+#unittest.main()
+
+
+
+
+
+
+      
+        
+        
+        
+  
+  
