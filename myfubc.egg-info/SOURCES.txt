@@ -1,7 +1,0 @@
-README.txt
-setup.py
-sole_decorators.py
-myfubc.egg-info/PKG-INFO
-myfubc.egg-info/SOURCES.txt
-myfubc.egg-info/dependency_links.txt
-myfubc.egg-info/top_level.txt
