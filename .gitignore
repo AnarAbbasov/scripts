@@ -1,4 +1,4 @@
-__*
-*cashe
-*.tar.gz
-*.egg-info
+./__*
+./*cashe
+./*.tar.gz
+./*.egg-info
