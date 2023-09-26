@@ -2,4 +2,4 @@
 ./*cashe
 ./*.tar.gz
 ./*.egg-info
-./dist
+./dist/*
