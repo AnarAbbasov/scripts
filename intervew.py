@@ -21,6 +21,8 @@ def filter_mod(item):
 print (os.environ['ORIGINAL_XDG_CURRENT_DESKTOP'])
 print ("test")
 
+def getlist():
+    return list(map (divide_by2,my_ints_list))
 
 
 my_ints_list=[1,2,3,4,5,6,7,8]

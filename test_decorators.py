@@ -36,4 +36,7 @@ def test_mypr2():
   
 def test_interview():
     assert  intervew.divide_by2(4)==2
+
+def test_map():
+     assert isinstance(intervew.getlist(),list)
     
