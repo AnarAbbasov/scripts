@@ -1,5 +1,5 @@
-./__*
-./*cashe
-./*.tar.gz
-./*.egg-info
-/dist/*.tar.gz
+__*
+*.cashe
+*.tar.gz
+.egg-info
+*.tar.gz
