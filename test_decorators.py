@@ -42,22 +42,26 @@ def myprinting(text):
 
 
 
-
+class mebeltest(unittest.TestCase):
+       def rtyTest(self):
+         rectangle = intervew.divide_by2(6)
+         self.assertEqual(rectangle, 3, "incorrect result")
+      
       
       
        
      
 
-class mytest(unittest.TestCase):
-  
-  #def runTest(self):
-  #      rectangle = intervew.divide_by2(6)
-  #      self.assertEqual(rectangle, 3, "incorrect result")
-  #      
-        
-  def runlisttest(self):
-        resut= intervew.test()
-        self.addTypeEqualityFunc(resut,list,"not list")   
+#class mytest(unittest.TestCase):
+#  
+#  def runTest(self):
+#       rectangle = intervew.divide_by2(6)
+#       self.assertEqual(rectangle, 3, "incorrect result")
+#       
+#        
+#  def rtyTest(self):
+#        rectangle = intervew.divide_by2(6)
+#        self.assertEqual(rectangle, 3, "incorrect result")
 
 
 #unittest.main()
