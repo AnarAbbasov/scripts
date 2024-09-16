@@ -14,3 +14,40 @@ for el in ${myarray[@]}
 do
 	echo $el
 done
+
+
+function testfunc()
+{
+	return 33
+}
+
+testfunc xuy
+
+echo $?
+
+echo $@
+
+
+
+
+
+
+
+
+
+mystr=5fffbfd
+echo $mystr | wc -c
+numchars=`echo $mystr | wc -c`
+echo ${mystr:3:1}
+
+echo $mystr | cut -c 1-5
+
+
+
+
+
+for ((i=0;i<9;i=i+1))
+{
+	echo "tyr"
+}
+

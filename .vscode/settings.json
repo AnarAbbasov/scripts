@@ -10,5 +10,12 @@
         ".",
         "-p",
         "test*.py"
-    ]
+    ],
+    "files.associations": {
+        "threads.h": "c",
+        "stdio.h": "c",
+        "curl.h": "c",
+        "urlapi.h": "c",
+        "easy.h": "c"
+    }
 }
